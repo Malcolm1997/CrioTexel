@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Myriad Pro Condensed';
+    src: local('Myriad Pro Condensed Regular'), local('../fonts/Myriad-Pro-Condensed-Regular'),
+        url('../fonts/MyriadPro-Cond.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Cond.woff') format('woff'),
+        url('../fonts/MyriadPro-Cond.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{
+      font-family: 'Myriad Pro Condensed';
+      font-size: 1.25rem;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      color: black;
+      font-size: 1.50rem;
+    }
+
+img{
+    width: 150%;
+}
+
+.logo{
+    width: 150%;
+    padding-right: 100px ;
+}
+
+.fal{
+    color: black;
+}
+
+.text-title{
+    color: black;
+    padding: 15px;
+}
+
+.page-background{
+    background-image: url(../images/wallpaper\ copia.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.botonMenu{
+    border: 1px black solid;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.62);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.menuPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menuDeDos{
+    height: 33%;
+}
+
+.opcionLink{
+    display: flex;
+    flex-direction: column;
+}
+
+.controlesIzquierdos div, .menuDeComandos div{
+    background-color: rgba(255, 255, 255, 0.38);
+}
+
+.controlesIzquierdos, .controlesDerechos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.valoresReales{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.menuDeComandos{
+    text-align: center;
+    align-items: stretch;
+}
+
+.valores{
+    text-align: center;
+}
+
+.selectorPotencia, .selectorFrio, .selectorTiempo, .valoresReales{
+    align-items: center;
+}
+
+.header{
+    width: 15%;
+}
+
+.pageComand{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stats{
+    height: 100%;
+}
+
+.controlDerecho{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
