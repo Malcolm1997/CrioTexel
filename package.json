@@ -9,17 +9,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "axios": "^0.21.4",
-    "consign": "^0.1.6",
-    "easy-livereload": "^1.4.3",
-    "express": "^4.17.1",
-    "internet-available": "^1.0.0",
-    "lokijs": "^1.5.12",
-    "md5": "^2.3.0",
-    "pi-wifi": "^1.2.0",
-    "sequelize": "^6.6.5",
-    "serialport": "^9.2.1",
-    "socket.io": "^4.2.0",
-    "sqlite3": "^5.0.2"
+    "express": "^4.17.1"
   }
 }
